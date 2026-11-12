@@ -72,7 +72,7 @@ bash install.sh
 
 脚本会把专家装到 `~/.workbuddy/plugins/marketplaces/my-experts/plugins/negative-feedback-iteration/`，并自动登记到专家列表。然后打开【专家中心 → 我的专家】，就能看到「负反馈迭代」。
 
-**手动装也行**：下载 [`dist/f2r-expert-package.zip`](dist/f2r-expert-package.zip)，解压出 `negative-feedback-iteration/` 文件夹，整个放进：
+**手动装也行**：下载 [f2r-expert-package.zip](https://github.com/zhenliu1486/f2r-negative-feedback-iteration/releases/download/v1.0.0/f2r-expert-package.zip)，解压出 `negative-feedback-iteration/` 文件夹，整个放进：
 
 ```
 ~/.workbuddy/plugins/marketplaces/my-experts/plugins/
@@ -125,8 +125,8 @@ bash install.sh
 
 | 想要什么 | 下哪个 |
 |---|---|
-| 在 WorkBuddy 装专家 | [`dist/f2r-expert-package.zip`](dist/f2r-expert-package.zip)（含全部源码＋通用包） |
-| 在别的 AI 上用，或想发给朋友 | [`dist/f2r-universal-package.zip`](dist/f2r-universal-package.zip)（8 个纯文字文件，18KB） |
+| 在 WorkBuddy 装专家 | [f2r-expert-package.zip](https://github.com/zhenliu1486/f2r-negative-feedback-iteration/releases/download/v1.0.0/f2r-expert-package.zip)（含全部源码＋通用包） |
+| 在别的 AI 上用，或想发给朋友 | [f2r-universal-package.zip](https://github.com/zhenliu1486/f2r-negative-feedback-iteration/releases/download/v1.0.0/f2r-universal-package.zip)（8 个纯文字文件，18KB） |
 | 只想复制一段话 | [`universal/ALL-IN-ONE.md`](universal/ALL-IN-ONE.md) 或 [`universal/SYSTEM-PROMPT.md`](universal/SYSTEM-PROMPT.md) |
 | 只想看方法论原文 | [`universal/METHOD.md`](universal/METHOD.md) |
 
