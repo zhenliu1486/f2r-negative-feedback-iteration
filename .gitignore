@@ -1,0 +1,10 @@
+.DS_Store
+__MACOSX/
+._*
+*.bak
+*.tmp
+.idea/
+.vscode/
+node_modules/
+__pycache__/
+*.pyc

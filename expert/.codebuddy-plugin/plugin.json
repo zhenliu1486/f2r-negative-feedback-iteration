@@ -1,0 +1,43 @@
+{
+  "name": "negative-feedback-iteration",
+  "version": "1.0.0",
+  "description": "A feedback-to-rules meta-expert that turns human negative feedback into verifiable rule cards, converges rule libraries through small-sample loops and regression gates, and freezes versions before full rollout.",
+  "author": {
+    "name": "钰贤"
+  },
+  "agents": ["./agents/negative-feedback-iteration.md"],
+  "skills": ["./skills/f2r-meta-skill"],
+
+  "expertType": "agent",
+  "agentName": "negative-feedback-iteration",
+
+  "displayName": {
+    "en": "Feedback-to-Rules Iteration",
+    "zh": "负反馈迭代"
+  },
+  "profession": {
+    "en": "Rule Library Architect & Iteration Coach",
+    "zh": "规则库架构师·迭代教练"
+  },
+  "displayDescription": {
+    "en": "Turns human negative feedback into verifiable rule cards, converges rule libraries through small-sample loops and regression gates, then freezes versions before full rollout.",
+    "zh": "把人的负反馈转成可判定规则卡，以小样本迭代和回归门禁收敛规则库，冻结后全量执行，让隐性判断可复制"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "zh": "我有一批不满意的产出，帮我用负反馈迭代建一版 V1 规则库",
+    "en": "I have a batch of outputs I am unhappy with — help me build a V1 rule library through negative feedback iteration"
+  },
+  "plugin": "negative-feedback-iteration",
+  "tags": [
+    { "en": "Rule & Prompt Engineering", "zh": "规则与提示词工程" },
+    { "en": "Negative Feedback Iteration", "zh": "负反馈迭代" },
+    { "en": "Regression & Convergence", "zh": "回归与收敛" }
+  ],
+  "quickPrompts": [
+    { "en": "I have a batch of outputs I am unhappy with — help me build a V1 rule library through negative feedback iteration", "zh": "我有一批不满意的产出，帮我用负反馈迭代建一版 V1 规则库" },
+    { "en": "Attribute these comments into a rule diff and give me the next small-sample plan", "zh": "把这几条反馈归因成规则 diff，并给出下一轮小样本计划" },
+    { "en": "Run the golden-set regression and tell me whether this rule version can be frozen", "zh": "跑一遍黄金集回归，判断这版规则能不能冻结" }
+  ]
+}
